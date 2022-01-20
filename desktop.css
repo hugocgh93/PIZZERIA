@@ -1,0 +1,77 @@
+
+@media (min-width: 1200px) {
+    header img{
+        width: 45%;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: block;
+    }
+
+
+    .menu-desktop ul li a {
+        color: white;
+        display: flex;
+        text-decoration: none;
+    } 
+
+    .navbar {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 100px 0;
+    }
+
+    .top img {
+        width: 20%;
+    }
+
+    .left-text {
+        display: block;
+    }
+
+    .cards {
+        display: flex;
+    }
+
+    .pizza {
+        display: flex;
+    }
+
+    .container img {
+        width: 40%;
+        height: auto;
+    }
+
+    footer img {
+        width: 10%;
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    footer nav {
+        display: flex;
+        font-size: 0.8em;
+        width: fit-content;
+        gap: 20px
+    }
+
+    .social-media {
+        display: flex;
+        text-align: center;
+        width: fit-content;
+        gap: 20px;
+    }
+}
